@@ -1,0 +1,12 @@
+{
+  "rows": 540,
+  "both_correct": 63,
+  "bert_only_correct": 86,
+  "tfidf_only_correct": 109,
+  "both_wrong": 282,
+  "bert_accuracy": 0.2759259259259259,
+  "tfidf_accuracy": 0.31851851851851853,
+  "prediction_agreement": 0.22962962962962963,
+  "oracle_selection_accuracy": 0.47777777777777775,
+  "note": "Oracle uses ground truth to pick the correct model per row. Not an achievable ensemble score or an upper bound for arbitrary score fusion. No fusion fitted."
+}

@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "model": "artifacts/bert_gpu_20261023_143300_319726/model",
+    "max_length": 512,
+    "bf16": true,
+    "device": "cuda",
+    "sha256_train_csv": "40a22ce8d88c5f46feb4637a099db815bef5f713ffe53e89dbe1b7b21de77707",
+    "note": "Same saved best model, eval mode. Validation used for model selection."
+  },
+  "train": {
+    "rows": 2159,
+    "loss": 1.2951847868539133,
+    "accuracy": 0.6567855488652153,
+    "balanced_accuracy": 0.6565787426081544,
+    "macro_f1": 0.6364360064959863
+  },
+  "validation": {
+    "rows": 540,
+    "loss": 1.9559446924010495,
+    "accuracy": 0.2759259259259259,
+    "balanced_accuracy": 0.2759259259259259,
+    "macro_f1": 0.2544462701932215
+  },
+  "train_minus_validation_accuracy": 0.38085962293928943
+}

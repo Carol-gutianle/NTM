@@ -1,0 +1,29 @@
+{
+  "training_rows": 3209,
+  "training_class_counts": {
+    "claude-fable-5": 119,
+    "claude-opus-4-6": 220,
+    "claude-opus-4-8": 169,
+    "claude-opus-5": 195,
+    "claude-sonnet-5": 220,
+    "gemini-3.1-pro-preview": 120,
+    "gemini-3.6-flash": 220,
+    "gemini-3.7-flash": 120,
+    "gemini-3.8-flash": 151,
+    "glm-5.3": 120,
+    "glm-5.3-flash": 120,
+    "gpt-5.5": 220,
+    "gpt-5.6-luna": 220,
+    "gpt-5.6-sol": 219,
+    "gpt-5.6-terra": 219,
+    "gpt-6-astra": 120,
+    "kimi-k3": 219,
+    "qwen3.8-max": 218
+  },
+  "validation_rows": 540,
+  "train_accuracy": 1.0,
+  "accuracy": 0.28703703703703703,
+  "balanced_accuracy": 0.28703703703703703,
+  "features": 166765,
+  "macro_f1": 0.28110512287952333
+}

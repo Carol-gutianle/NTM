@@ -1,0 +1,114 @@
+{
+  "preliminary_ready": false,
+  "input_root": "artifacts/decoder_qwen_v8/input",
+  "assets": {
+    "public pool": {
+      "ok": false,
+      "matches": []
+    },
+    "8B two-stage LoRA": {
+      "ok": false,
+      "matches": []
+    },
+    "14B two-stage LoRA": {
+      "ok": false,
+      "matches": []
+    },
+    "ATLAS bundle": {
+      "ok": false,
+      "matches": []
+    },
+    "original LoRA24 seed 7": {
+      "ok": false,
+      "matches": []
+    },
+    "original Claude LoRA": {
+      "ok": false,
+      "matches": []
+    },
+    "original Qwen2.5 LoRA": {
+      "ok": false,
+      "matches": []
+    },
+    "Qwen token-attention head": {
+      "ok": false,
+      "matches": []
+    },
+    "DeBERTa token-attention head": {
+      "ok": false,
+      "matches": []
+    },
+    "DeBERTa encoder": {
+      "ok": false,
+      "matches": []
+    },
+    "Electra encoder": {
+      "ok": false,
+      "matches": []
+    },
+    "Desklib encoder": {
+      "ok": false,
+      "matches": []
+    },
+    "original LoRA24": {
+      "ok": false,
+      "matches": [],
+      "incomplete": {}
+    },
+    "competition CSVs": {
+      "ok": true,
+      "matches": [
+        "artifacts/decoder_qwen_v8/input/name-that-llm"
+      ]
+    },
+    "Qwen3-8B": {
+      "ok": false,
+      "matches": []
+    },
+    "Qwen3-14B": {
+      "ok": false,
+      "matches": []
+    },
+    "Qwen3-4B": {
+      "ok": false,
+      "matches": []
+    },
+    "Qwen2.5-7B": {
+      "ok": false,
+      "matches": []
+    },
+    "GLM4-9B": {
+      "ok": false,
+      "matches": []
+    },
+    "Qwen3.5 token-attention base": {
+      "ok": false,
+      "matches": []
+    },
+    "UltraBERT five folds": {
+      "ok": false,
+      "matches": []
+    }
+  },
+  "environment": {
+    "python": "3.14.6 | packaged by Anaconda, Inc. | (main, Jun 18 2026, 21:28:09) [GCC 14.3.0]",
+    "executable": "/data/home/tianlelegu/miniconda3/bin/python",
+    "packages": {
+      "torch": null,
+      "transformers": null,
+      "peft": null,
+      "accelerate": null,
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scipy": "1.18.1",
+      "scikit-learn": null,
+      "lightgbm": null,
+      "safetensors": null,
+      "pyarrow": null
+    },
+    "cuda_available": false,
+    "torch_error": "ModuleNotFoundError: No module named 'torch'",
+    "transformers_error": "ModuleNotFoundError: No module named 'transformers'",
+    "model_types": {}
+  }
+}

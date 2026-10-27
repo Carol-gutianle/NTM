@@ -1,0 +1,89 @@
+{
+  "seed": 42,
+  "method": "StratifiedGroupKFold, 5 folds, fixed character TF-IDF configuration",
+  "folds": [
+    {
+      "balanced_accuracy": 0.3185185185185185,
+      "accuracy": 0.31851851851851853,
+      "validation_rows": 540,
+      "fold": 1,
+      "train_rows": 2159,
+      "train_prompts": 120,
+      "validation_prompts": 30,
+      "train_and_eval_seconds": 6.763180311769247,
+      "features": 117122
+    },
+    {
+      "balanced_accuracy": 0.32962962962962966,
+      "accuracy": 0.3296296296296296,
+      "validation_rows": 540,
+      "fold": 2,
+      "train_rows": 2159,
+      "train_prompts": 120,
+      "validation_prompts": 30,
+      "train_and_eval_seconds": 6.727426214143634,
+      "features": 116694
+    },
+    {
+      "balanced_accuracy": 0.3277777777777777,
+      "accuracy": 0.3277777777777778,
+      "validation_rows": 540,
+      "fold": 3,
+      "train_rows": 2159,
+      "train_prompts": 120,
+      "validation_prompts": 30,
+      "train_and_eval_seconds": 6.735748402774334,
+      "features": 115232
+    },
+    {
+      "balanced_accuracy": 0.3112388250319285,
+      "accuracy": 0.3116883116883117,
+      "validation_rows": 539,
+      "fold": 4,
+      "train_rows": 2160,
+      "train_prompts": 120,
+      "validation_prompts": 30,
+      "train_and_eval_seconds": 6.874025335535407,
+      "features": 117158
+    },
+    {
+      "balanced_accuracy": 0.28148148148148144,
+      "accuracy": 0.2814814814814815,
+      "validation_rows": 540,
+      "fold": 5,
+      "train_rows": 2159,
+      "train_prompts": 120,
+      "validation_prompts": 30,
+      "train_and_eval_seconds": 6.70380936935544,
+      "features": 116752
+    }
+  ],
+  "mean_balanced_accuracy": 0.31372924648786715,
+  "std_balanced_accuracy_population": 0.017431242577494555,
+  "min_balanced_accuracy": 0.28148148148148144,
+  "max_balanced_accuracy": 0.32962962962962966,
+  "pooled_oof_balanced_accuracy": 0.3137459607258265,
+  "total_seconds": 41.70572449825704,
+  "labels": [
+    "claude-fable-5",
+    "claude-opus-4-6",
+    "claude-opus-4-8",
+    "claude-opus-5",
+    "claude-sonnet-5",
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "gpt-5.5",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra",
+    "kimi-k3",
+    "qwen3.8-max"
+  ],
+  "sha256_train_csv": "40a22ce8d88c5f46feb4637a099db815bef5f713ffe53e89dbe1b7b21de77707",
+  "note": "Configuration selected on fold 1 previously; CV is not an untouched final test."
+}

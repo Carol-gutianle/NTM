@@ -1,0 +1,17 @@
+{
+  "members": [
+    "char_svm",
+    "qwen_lora",
+    "bert",
+    "xgboost",
+    "tfidf_mlp"
+  ],
+  "tie_priority": [
+    "char_svm",
+    "qwen_lora",
+    "bert",
+    "xgboost",
+    "tfidf_mlp"
+  ],
+  "rule": "One vote per member; max vote count; tied labels resolved by member priority. Not guaranteed to have >50% votes in multiclass problems."
+}

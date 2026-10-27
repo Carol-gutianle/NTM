@@ -1,0 +1,16 @@
+method,rows,accuracy,balanced_accuracy,macro_f1,protocol,selection,evidence
+BERT + character SVM score fusion,540,0.3574074074074074,0.3574074074074074,0.3454690753294247,grouped_holdout_fold_1,5 weights; validation-selected,evidence/bert_tfidf_fusion_20261023_150134_2/validation_predictions.csv
+Qwen3-32B LoRA / 8 GPUs,540,0.35185185185185186,0.35185185185185186,0.3277803622646407,grouped_holdout_fold_1,checkpoint selected on validation,evidence/qwen3_32b_lora_8gpu_20261023_120419_38821/validation_predictions.csv
+Hard vote / 3 models,540,0.34629629629629627,0.3462962962962963,0.3356861684015882,grouped_holdout_fold_1,exploratory reused validation,evidence/multi_vote_20261023_163628_2/vote3/validation_predictions.csv
+Hard vote / 5 models,540,0.34444444444444444,0.34444444444444444,0.33771735734407926,grouped_holdout_fold_1,exploratory reused validation,evidence/multi_vote_20261023_163628_2/vote5/validation_predictions.csv
+Hard vote / 7 models,540,0.3425925925925926,0.3425925925925926,0.3335469899079504,grouped_holdout_fold_1,exploratory reused validation,evidence/multi_vote_20261023_163628_2/vote7/validation_predictions.csv
+Character TF-IDF + LinearSVC,540,0.31851851851851853,0.31851851851851853,0.30860450013260265,grouped_holdout_fold_1,fixed baseline,evidence/tfidf_char/validation_predictions.csv
+TF-IDF MLP,540,0.31666666666666665,0.31666666666666665,0.3096402127835577,grouped_holdout_fold_1,checkpoint selected on validation,evidence/tfidf_mlp/validation_predictions.csv
+Character + word TF-IDF + LinearSVC,540,0.3037037037037037,0.3037037037037037,0.28960755669046945,grouped_holdout_fold_1,fixed baseline,evidence/tfidf_combined/validation_predictions.csv
+"Character SVM + 1,050 external rows",540,0.28703703703703703,0.28703703703703703,0.2811051228795234,grouped_holdout_fold_1,partial external augmentation,evidence/augmentation_interim_tfidf/augmented/validation_predictions.csv
+"Character SVM + 2,025 external rows",540,0.2833333333333333,0.2833333333333333,0.2753502007648471,grouped_holdout_fold_1,partial external augmentation,evidence/augmentation200_evaluation/augmented/validation_predictions.csv
+BERT GPU / 512 tokens,540,0.2759259259259259,0.2759259259259259,0.2544462701932215,grouped_holdout_fold_1,checkpoint selected on validation,evidence/bert_gpu_20261023_143300_319726/validation_predictions.csv
+Word TF-IDF + LinearSVC,540,0.26851851851851855,0.2685185185185185,0.24929427857401462,grouped_holdout_fold_1,fixed baseline,evidence/tfidf_word/validation_predictions.csv
+BERT CPU / 256 tokens,540,0.24259259259259258,0.24259259259259258,0.19694463570095988,grouped_holdout_fold_1,checkpoint selected on validation,evidence/bert/validation_predictions.csv
+XGBoost / character TF-IDF,540,0.22777777777777777,0.22777777777777775,0.22729182074326784,grouped_holdout_fold_1,reused validation,evidence/xgboost_char_first/validation_predictions.csv
+KNN / character TF-IDF,540,0.1574074074074074,0.1574074074074074,0.1432467861721099,grouped_holdout_fold_1,10 candidates; validation-selected,evidence/knn_char_first/validation_predictions.csv

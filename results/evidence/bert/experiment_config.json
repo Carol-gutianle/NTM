@@ -1,0 +1,22 @@
+{
+  "source": "artifacts/pretrained/bert-base-cased",
+  "seed": 42,
+  "max_length": 256,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "epochs": 5,
+  "patience": 2,
+  "device": "cpu",
+  "threads": 8,
+  "bf16": true,
+  "training_scope": "holdout training split only",
+  "truncated_fraction_train_split": 0.15331171838814267,
+  "truncated_fraction_validation": 0.13333333333333333,
+  "token_length_quantiles": [
+    48.0,
+    141.0,
+    279.0,
+    305.0999999999999,
+    411.0
+  ]
+}

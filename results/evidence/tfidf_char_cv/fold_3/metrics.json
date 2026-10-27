@@ -1,0 +1,11 @@
+{
+  "balanced_accuracy": 0.3277777777777777,
+  "accuracy": 0.3277777777777778,
+  "validation_rows": 540,
+  "fold": 3,
+  "train_rows": 2159,
+  "train_prompts": 120,
+  "validation_prompts": 30,
+  "train_and_eval_seconds": 6.735748402774334,
+  "features": 115232
+}

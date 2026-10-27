@@ -1,0 +1,28 @@
+{
+  "epochs": 30,
+  "patience": 6,
+  "hidden_dim": 128,
+  "dropout": 0.3,
+  "lr": 0.001,
+  "weight_decay": 0.01,
+  "batch_size": 128,
+  "threads": 4,
+  "predict": false,
+  "model_dir": "artifacts/tfidf_mlp",
+  "test": "test.csv",
+  "output": "submission.parquet",
+  "seed": 42,
+  "architecture": {
+    "input_dim": 117122,
+    "hidden_dim": 128,
+    "num_labels": 18,
+    "dropout": 0.3
+  },
+  "num_parameters": 14994066,
+  "device": "cpu",
+  "training_rows": 2159,
+  "validation_rows": 540,
+  "features": "Exact fitted character TF-IDF from initial SVM training fold",
+  "selection": "Best validation balanced accuracy; same validation set used for early stopping",
+  "training_scope": "2159-row training partition only, no full-data refit"
+}

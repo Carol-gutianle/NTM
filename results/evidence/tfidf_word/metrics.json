@@ -1,0 +1,22 @@
+{
+  "balanced_accuracy": 0.26851851851851855,
+  "accuracy": 0.26851851851851855,
+  "validation_rows": 540,
+  "train_and_eval_seconds": 0.9396240804344416,
+  "features": 40669,
+  "config": {
+    "C": 1.0,
+    "class_weight": null,
+    "dual": "auto",
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "loss": "squared_hinge",
+    "max_iter": 5000,
+    "multi_class": "ovr",
+    "penalty": "l2",
+    "random_state": 42,
+    "tol": 0.0001,
+    "verbose": 0
+  },
+  "training_scope": "holdout training split only"
+}

@@ -1,0 +1,8 @@
+{
+  "source_url": "https://www.kaggle.com/api/v1/kernels/pull/lynnsakurai/llm-decoder-qwen-ver",
+  "version": 8,
+  "source_sha256": "06a0aa8e8dfbadb5844db463da3d09c201f76603808414e079e264fa79338079",
+  "last_run_time": "2026-10-20T11:12:24.4035569Z",
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:2757e0c7d1e0a9cb43da657b97e223c321a98f5014bdf64f44f2f6b083ad2b2f",
+  "warning": "Attached datasets and notebook outputs are not fully version-pinned by this API."
+}

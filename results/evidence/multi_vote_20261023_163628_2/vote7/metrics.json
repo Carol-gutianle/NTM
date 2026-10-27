@@ -1,0 +1,8 @@
+{
+  "rows": 540,
+  "accuracy": 0.3425925925925926,
+  "balanced_accuracy": 0.3425925925925926,
+  "macro_f1": 0.3335469899079504,
+  "tie_rows": 88,
+  "strict_majority_rows": 304
+}

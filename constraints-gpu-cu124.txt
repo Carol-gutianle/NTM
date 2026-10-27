@@ -1,0 +1,2 @@
+# Keep the shared ntl environment on this explicit CUDA-enabled PyTorch build.
+torch==2.6.0+cu124

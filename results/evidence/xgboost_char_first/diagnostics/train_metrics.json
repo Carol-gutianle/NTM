@@ -1,0 +1,7 @@
+{
+  "rows": 2159,
+  "loss": 0.17398790025298777,
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "macro_f1": 1.0
+}

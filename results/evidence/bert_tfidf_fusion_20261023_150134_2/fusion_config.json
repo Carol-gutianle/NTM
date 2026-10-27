@@ -1,0 +1,34 @@
+{
+  "best": {
+    "bert_weight": 0.5,
+    "tfidf_weight": 0.5,
+    "accuracy": 0.3574074074074074,
+    "balanced_accuracy": 0.3574074074074074,
+    "macro_f1": 0.34546907532942484
+  },
+  "rows": 540,
+  "labels": [
+    "claude-fable-5",
+    "claude-opus-4-6",
+    "claude-opus-4-8",
+    "claude-opus-5",
+    "claude-sonnet-5",
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "gpt-5.5",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra",
+    "kimi-k3",
+    "qwen3.8-max"
+  ],
+  "method": "Per model and sample: z-score across classes (std floor 1e-12), then softmax T=1; weighted average; argmax.",
+  "bert_run": "artifacts/bert_gpu_20261023_143300_319726",
+  "tfidf_run": "artifacts/tfidf_char",
+  "note": "Exploratory selection on the SAME validation set used to select the BERT checkpoint and earlier baselines. Not independent/CV/test accuracy. Normalized scores are NOT calibrated probabilities. No test submission generated."
+}

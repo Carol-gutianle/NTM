@@ -1,0 +1,10 @@
+{
+  "test_loss": 1.8475860357284546,
+  "test_balanced_accuracy": 0.35185185185185186,
+  "test_accuracy": 0.35185185185185186,
+  "test_runtime": 15.2724,
+  "test_samples_per_second": 35.358,
+  "test_steps_per_second": 4.452,
+  "best_checkpoint": "artifacts/qwen3_32b_lora_8gpu_20261023_120419_38821/checkpoint-300",
+  "note": "Validation is also used for checkpoint selection; not an independent test."
+}

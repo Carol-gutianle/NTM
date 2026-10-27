@@ -1,0 +1,152 @@
+[
+  {
+    "method": "BERT + character SVM score fusion",
+    "rows": 540,
+    "accuracy": 0.3574074074074074,
+    "balanced_accuracy": 0.3574074074074074,
+    "macro_f1": 0.3454690753294247,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "5 weights; validation-selected",
+    "evidence": "evidence/bert_tfidf_fusion_20261023_150134_2/validation_predictions.csv"
+  },
+  {
+    "method": "Qwen3-32B LoRA / 8 GPUs",
+    "rows": 540,
+    "accuracy": 0.35185185185185186,
+    "balanced_accuracy": 0.35185185185185186,
+    "macro_f1": 0.3277803622646407,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "checkpoint selected on validation",
+    "evidence": "evidence/qwen3_32b_lora_8gpu_20261023_120419_38821/validation_predictions.csv"
+  },
+  {
+    "method": "Hard vote / 3 models",
+    "rows": 540,
+    "accuracy": 0.34629629629629627,
+    "balanced_accuracy": 0.3462962962962963,
+    "macro_f1": 0.3356861684015882,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "exploratory reused validation",
+    "evidence": "evidence/multi_vote_20261023_163628_2/vote3/validation_predictions.csv"
+  },
+  {
+    "method": "Hard vote / 5 models",
+    "rows": 540,
+    "accuracy": 0.34444444444444444,
+    "balanced_accuracy": 0.34444444444444444,
+    "macro_f1": 0.33771735734407926,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "exploratory reused validation",
+    "evidence": "evidence/multi_vote_20261023_163628_2/vote5/validation_predictions.csv"
+  },
+  {
+    "method": "Hard vote / 7 models",
+    "rows": 540,
+    "accuracy": 0.3425925925925926,
+    "balanced_accuracy": 0.3425925925925926,
+    "macro_f1": 0.3335469899079504,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "exploratory reused validation",
+    "evidence": "evidence/multi_vote_20261023_163628_2/vote7/validation_predictions.csv"
+  },
+  {
+    "method": "Character TF-IDF + LinearSVC",
+    "rows": 540,
+    "accuracy": 0.31851851851851853,
+    "balanced_accuracy": 0.31851851851851853,
+    "macro_f1": 0.30860450013260265,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "fixed baseline",
+    "evidence": "evidence/tfidf_char/validation_predictions.csv"
+  },
+  {
+    "method": "TF-IDF MLP",
+    "rows": 540,
+    "accuracy": 0.31666666666666665,
+    "balanced_accuracy": 0.31666666666666665,
+    "macro_f1": 0.3096402127835577,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "checkpoint selected on validation",
+    "evidence": "evidence/tfidf_mlp/validation_predictions.csv"
+  },
+  {
+    "method": "Character + word TF-IDF + LinearSVC",
+    "rows": 540,
+    "accuracy": 0.3037037037037037,
+    "balanced_accuracy": 0.3037037037037037,
+    "macro_f1": 0.28960755669046945,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "fixed baseline",
+    "evidence": "evidence/tfidf_combined/validation_predictions.csv"
+  },
+  {
+    "method": "Character SVM + 1,050 external rows",
+    "rows": 540,
+    "accuracy": 0.28703703703703703,
+    "balanced_accuracy": 0.28703703703703703,
+    "macro_f1": 0.2811051228795234,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "partial external augmentation",
+    "evidence": "evidence/augmentation_interim_tfidf/augmented/validation_predictions.csv"
+  },
+  {
+    "method": "Character SVM + 2,025 external rows",
+    "rows": 540,
+    "accuracy": 0.2833333333333333,
+    "balanced_accuracy": 0.2833333333333333,
+    "macro_f1": 0.2753502007648471,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "partial external augmentation",
+    "evidence": "evidence/augmentation200_evaluation/augmented/validation_predictions.csv"
+  },
+  {
+    "method": "BERT GPU / 512 tokens",
+    "rows": 540,
+    "accuracy": 0.2759259259259259,
+    "balanced_accuracy": 0.2759259259259259,
+    "macro_f1": 0.2544462701932215,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "checkpoint selected on validation",
+    "evidence": "evidence/bert_gpu_20261023_143300_319726/validation_predictions.csv"
+  },
+  {
+    "method": "Word TF-IDF + LinearSVC",
+    "rows": 540,
+    "accuracy": 0.26851851851851855,
+    "balanced_accuracy": 0.2685185185185185,
+    "macro_f1": 0.24929427857401462,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "fixed baseline",
+    "evidence": "evidence/tfidf_word/validation_predictions.csv"
+  },
+  {
+    "method": "BERT CPU / 256 tokens",
+    "rows": 540,
+    "accuracy": 0.24259259259259258,
+    "balanced_accuracy": 0.24259259259259258,
+    "macro_f1": 0.19694463570095988,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "checkpoint selected on validation",
+    "evidence": "evidence/bert/validation_predictions.csv"
+  },
+  {
+    "method": "XGBoost / character TF-IDF",
+    "rows": 540,
+    "accuracy": 0.22777777777777777,
+    "balanced_accuracy": 0.22777777777777775,
+    "macro_f1": 0.22729182074326784,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "reused validation",
+    "evidence": "evidence/xgboost_char_first/validation_predictions.csv"
+  },
+  {
+    "method": "KNN / character TF-IDF",
+    "rows": 540,
+    "accuracy": 0.1574074074074074,
+    "balanced_accuracy": 0.1574074074074074,
+    "macro_f1": 0.1432467861721099,
+    "protocol": "grouped_holdout_fold_1",
+    "selection": "10 candidates; validation-selected",
+    "evidence": "evidence/knn_char_first/validation_predictions.csv"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "balanced_accuracy": 0.31666666666666665,
+  "accuracy": 0.31666666666666665,
+  "validation_rows": 540,
+  "best_epoch": 10,
+  "epochs_completed": 16,
+  "total_seconds": 140.18037369847298,
+  "best_epoch_train_balanced_accuracy": 1.0
+}

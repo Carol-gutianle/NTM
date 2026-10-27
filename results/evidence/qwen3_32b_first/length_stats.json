@@ -1,0 +1,6 @@
+{
+  "max_length": 512,
+  "max_observed": 381,
+  "train_truncated_fraction": 0.0,
+  "validation_truncated_fraction": 0.0
+}

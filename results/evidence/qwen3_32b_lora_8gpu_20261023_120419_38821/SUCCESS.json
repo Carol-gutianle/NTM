@@ -1,0 +1,5 @@
+{
+  "adapter": "artifacts/qwen3_32b_lora_8gpu_20261023_120419_38821/adapter",
+  "global_step": 350,
+  "submission": "artifacts/qwen3_32b_lora_8gpu_20261023_120419_38821/submission.parquet"
+}

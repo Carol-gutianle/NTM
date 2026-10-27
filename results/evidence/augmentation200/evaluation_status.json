@@ -1,0 +1,49 @@
+{
+  "timestamp_utc": "2026-10-23T10:06:26.478569+00:00",
+  "state": "evaluation_complete",
+  "generation_all_18_classes_complete": false,
+  "generation_progress": {
+    "target_per_available_class": 200,
+    "actual_per_class": {
+      "claude-fable-5": 0,
+      "claude-opus-4-6": 200,
+      "claude-opus-4-8": 49,
+      "claude-opus-5": 146,
+      "claude-sonnet-5": 200,
+      "gemini-3.1-pro-preview": 0,
+      "gemini-3.6-flash": 200,
+      "gemini-3.7-flash": 0,
+      "gemini-3.8-flash": 31,
+      "glm-5.3": 0,
+      "glm-5.3-flash": 0,
+      "gpt-5.5": 200,
+      "gpt-5.6-luna": 200,
+      "gpt-5.6-sol": 199,
+      "gpt-5.6-terra": 200,
+      "gpt-6-astra": 0,
+      "kimi-k3": 200,
+      "qwen3.8-max": 200
+    },
+    "accepted_rows": 2025,
+    "requests_reserved": 2144,
+    "responses_recorded": 2144,
+    "rejected_reasons": {
+      "incomplete_or_nonstop": 112,
+      "reasoning_not_disabled": 6,
+      "timeout": 1
+    },
+    "reasoning_checks": {
+      "unknown": 232,
+      "reported_zero": 1906,
+      "nonzero": 6
+    },
+    "reported_total_tokens": 733495,
+    "reported_cost_currency_unspecified": 61.124810224,
+    "all_available_classes_complete": false,
+    "note": "External candidates only, not merged. Model IDs are gateway attributed. Missing/failed classes are not substituted. Unknown reasoning usage is not proof of zero reasoning. Same scenario across tasks; group together if these generated data are themselves split later."
+  },
+  "original_accuracy": 0.31851851851851853,
+  "augmented_accuracy": 0.2833333333333333,
+  "accuracy_delta": -0.03518518518518521,
+  "summary_path": "artifacts/augmentation200_evaluation/summary.json"
+}

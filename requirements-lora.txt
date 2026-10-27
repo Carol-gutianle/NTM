@@ -1,0 +1,14 @@
+# Install a CUDA-compatible PyTorch build separately before this file.
+torch>=2.6,<3
+transformers==4.51.3
+peft==0.19.1
+accelerate==1.14.0
+bitsandbytes==0.50.0
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+joblib==1.5.2
+threadpoolctl==3.6.0
+safetensors>=0.4.3
+pyarrow>=15

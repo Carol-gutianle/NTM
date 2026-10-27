@@ -1,0 +1,37 @@
+{
+  "best": {
+    "k": 15,
+    "weights": "distance",
+    "accuracy": 0.1574074074074074,
+    "balanced_accuracy": 0.1574074074074074,
+    "macro_f1": 0.14324678617210992
+  },
+  "labels": [
+    "claude-fable-5",
+    "claude-opus-4-6",
+    "claude-opus-4-8",
+    "claude-opus-5",
+    "claude-sonnet-5",
+    "gemini-3.1-pro-preview",
+    "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "glm-5.3",
+    "glm-5.3-flash",
+    "gpt-5.5",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "gpt-6-astra",
+    "kimi-k3",
+    "qwen3.8-max"
+  ],
+  "train_rows": 2159,
+  "validation_rows": 540,
+  "features": 117122,
+  "split": "artifacts/bert_gpu_20261023_143300_319726/split.csv",
+  "train_sha256": "40a22ce8d88c5f46feb4637a099db815bef5f713ffe53e89dbe1b7b21de77707",
+  "elapsed_seconds": 13.481244657188654,
+  "reload_check": "passed",
+  "note": "Original data only; same grouped split and refitted train-only character TF-IDF. Select among 10 candidates on reused validation data, not independent test/CV. Class-score ties use sorted class order; neighbor boundary ties can depend on training row order. No misleading self-neighbor train accuracy reported. Local test predictions are only a smoke output, no Kaggle submission."
+}

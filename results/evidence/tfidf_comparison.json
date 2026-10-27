@@ -1,0 +1,68 @@
+{
+  "char": {
+    "balanced_accuracy": 0.3185185185185185,
+    "accuracy": 0.31851851851851853,
+    "validation_rows": 540,
+    "train_and_eval_seconds": 6.546860922127962,
+    "features": 117122,
+    "config": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": "auto",
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 5000,
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": 42,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "training_scope": "holdout training split only"
+  },
+  "word": {
+    "balanced_accuracy": 0.26851851851851855,
+    "accuracy": 0.26851851851851855,
+    "validation_rows": 540,
+    "train_and_eval_seconds": 0.9396240804344416,
+    "features": 40669,
+    "config": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": "auto",
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 5000,
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": 42,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "training_scope": "holdout training split only"
+  },
+  "combined": {
+    "balanced_accuracy": 0.3037037037037037,
+    "accuracy": 0.3037037037037037,
+    "validation_rows": 540,
+    "train_and_eval_seconds": 7.000547459349036,
+    "features": 157791,
+    "config": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": "auto",
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 5000,
+      "multi_class": "ovr",
+      "penalty": "l2",
+      "random_state": 42,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "training_scope": "holdout training split only"
+  }
+}
